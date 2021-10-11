@@ -7,7 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.questionslist {
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+  margin-top:8%;
+  content: "\25B6";
+  padding: 40px;
+  width: 500px;
+  background-color: wheat;
+  border: solid 2px black;
+  cursor: pointer;
+}
+.listitem:hover{
+  background-color: cyan;
+}
+.listitem{
+  list-style-type: none;
+  padding: 45px;
+  margin-top: 10px;
+  background-color: lightblue;
+  border: solid 2px black;
+}
+.sublistitem{
+  position:relative;
+  list-style-type: none;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: rgb(197, 210, 214);
+}
+.sublistitem:hover{
+  background-color: green;
 }
